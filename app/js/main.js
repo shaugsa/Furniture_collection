@@ -20,3 +20,10 @@ $(function () {
     });
 
 })
+
+$('#about__popup-play').click(function(){
+	$.fancybox.open({
+		src: '#about__popup-imgbtn',
+		type: 'inline'
+	});
+});
